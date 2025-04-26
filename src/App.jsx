@@ -1,33 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import logoDio from './img/logo-dio 1.png'
+import user from './img/vector.png'
+import email from './img/email.png'
+import password from './img/password.png'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <img src={logoDio} alt="logo-dio " />
+        <div className='header-info' >
+          <p className='home'>HOME</p>
+          <p className='entrar'>entrar</p>
+          <p className='cadastrar'>cadastrar</p>
+
+        </div>
+      </header>
+      <main>
+        <div className='primeira-metade'>
+          <p>A plataforma para você aprender com experts, dominar as principais tecnologias e entrar mais rápido nas empresas mais desejadas.</p>
+        </div>
+        <div className='segunda-metade'>
+          <h3>comece agora gratis </h3>
+          <p>crie sua conta e make the change</p>
+          <div className='form-container'>
+            <form className="form">
+              <div className="input-group">
+                <img src={user} alt="user-dio" className='icon-user' />
+                <input type="text" placeholder='nome completo '/>
+              </div>
+              <div className="input-group">
+                <img src={email} alt="email-dio" className='icon-email' />
+                <input type="text" placeholder='email'/>
+              </div>
+              <div className="input-group">
+                <img src={password} alt="password-dio" className='icon-password' />
+                <input type="text" placeholder='password'/>
+              </div>
+              <button type='submit' className='button-submite'>Criar minha conta</button>
+            </form>
+          </div>
+          
+        </div>
+      </main>
+       
     </>
   )
 }
