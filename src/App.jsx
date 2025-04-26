@@ -29,15 +29,15 @@ function App() {
             <form className="form">
               <div className="input-group">
                 <img src={user} alt="user-dio" className='icon-user' />
-                <input type="text" placeholder='nome completo '/>
+                <input type="text" placeholder='nome completo ' className='input-dio'/>
               </div>
               <div className="input-group">
                 <img src={email} alt="email-dio" className='icon-email' />
-                <input type="text" placeholder='email'/>
+                <input type="text" placeholder='email' className='input-dio'/>
               </div>
               <div className="input-group">
                 <img src={password} alt="password-dio" className='icon-password' />
-                <input type="text" placeholder='password'/>
+                <input type="text" placeholder='password' className='input-dio'/>
               </div>
               <button type='submit' className='button-submite'>Criar minha conta</button>
             </form>

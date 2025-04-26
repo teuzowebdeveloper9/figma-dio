@@ -109,8 +109,8 @@ main{
   height: 13px;
 }
 .input-group input {
-  width: 8px;
-  height: 8px;
+  width: 135px;
+  height: 25px;
   flex: 1;
   background: none;
   border-bottom: 1px solid #ccc;
@@ -125,5 +125,8 @@ main{
   height: 29px;
   width: 264px;
   border-radius: 27px;
+}
+.input-dio::placeholder{
+  color: white;
 }
 
