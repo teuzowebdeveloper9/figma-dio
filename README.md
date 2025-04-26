@@ -32,6 +32,7 @@ intale as dependencias
 
 npm install
 
+Acesse no navegador: http://localhost:3000
 inicie o projeto
 
 npm run dev
