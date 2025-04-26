@@ -22,6 +22,15 @@ O objetivo deste projeto é treinar a construção de interfaces reais a partir 
 
 ![image](https://github.com/user-attachments/assets/893f1c03-4c3c-4cab-87d5-e2dca2011956)
 
+---
+# 📚 Créditos
+Protótipo original: DIO - Digital Innovation One
+
+Desenvolvido por: teuzowebdeveloper
+
+
+
+---
 
 ## 📂 Como Rodar o Projeto
 
